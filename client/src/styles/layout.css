@@ -33,7 +33,7 @@
     .app-wrap {
         grid-template-areas:
             "header header header"
-            "left content right"
+            "content"
             "footer footer footer";
         grid-template-columns: 1fr calc(728px - (var(--grid-gap) * 2)) 1fr;
         grid-template-rows: 64px 1fr 32px;
