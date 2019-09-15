@@ -15,12 +15,7 @@
     background: var(--primary);
 }
 
-.app-left-content,
-.app-right-content {
-    display: none;
-}
-
-.app-center-content {
+.app-content {
     grid-area: content;
 }
 
@@ -42,18 +37,5 @@
             "footer footer footer";
         grid-template-columns: 1fr calc(728px - (var(--grid-gap) * 2)) 1fr;
         grid-template-rows: 64px 1fr 32px;
-    }
-
-    .app-left-content,
-    .app-right-content {
-        display: flex;
-    }
-
-    .app-right-content {
-        grid-area: right;
-    }
-
-    .app-left-content {
-        grid-area: left;
     }
 }
