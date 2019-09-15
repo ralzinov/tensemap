@@ -1,3 +1,16 @@
 :root {
-    --global-bg: #f0f0f0;
+    --primary-dark: #303f9f;
+    --primary: #3f51b5;
+    --background: #f0f0f0;
+    --surface: #fff;
+    --error: #ff4081;
+    --divider: #bdbdbd;
+
+    --on-primary: #fff;
+    --on-surface: #212121;
+    --on-error: #fff;
+    --on-backfround: #8f8f8f;
+
+    --grid-gap: 8px;
+    --border-radius: 4px;
 }
