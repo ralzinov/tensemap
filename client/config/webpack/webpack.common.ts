@@ -29,7 +29,7 @@ export const commonConfigFactory: IWebpackConfigFactory = ({isProduction}) => ({
             },
             {
                 test: /\.html/,
-                use: 'raw-loader',
+                use: 'html-loader',
                 exclude: path.join(currentdir, './src/index.html')
             },
             {
