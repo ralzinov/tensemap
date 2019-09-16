@@ -14,7 +14,6 @@
 app-header {
     grid-area: header;
     grid-column: span 3;
-    background: var(--primary);
 }
 
 .app-content {

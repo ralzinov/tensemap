@@ -32,8 +32,16 @@ export const commonConfigFactory: IWebpackConfigFactory = ({isProduction}) => ({
                 use: 'html-loader',
                 exclude: path.join(currentdir, './src/index.html')
             },
-            {
-                test: /\.css$/,
+            {   // Load css with .component.css suffix as strings
+                test: /^(.+)\.component\.css$/,
+                use: [
+                    {loader: 'to-string-loader'},
+                    {loader: 'css-loader', options: {importLoaders: 1}},
+                    {loader: 'postcss-loader'}
+                ]
+            },
+            {   // Load css without .component.css suffix as usual
+                test: /^((?!component).)+\.css$/,
                 use: [
                     {
                         loader: MiniCssExtractPlugin.loader,

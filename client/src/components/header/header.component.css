@@ -1,0 +1,9 @@
+@import "../../styles/variables.css";
+
+:host {
+    color: var(--on-primary);
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+}

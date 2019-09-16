@@ -6,6 +6,7 @@
     "noImplicitAny": true,
     "removeComments": false,
     "sourceMap": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "experimentalDecorators": true
   }
 }

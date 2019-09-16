@@ -10,7 +10,19 @@
       "single"
     ],
     "ordered-imports": false,
+    "only-arrow-functions": false,
+    "no-angle-bracket-type-assertion": false,
     "object-literal-sort-keys": false,
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-rest-spread",
+      "check-type",
+      "check-type-operator"
+    ],
     "trailing-comma": [
       true,
       {

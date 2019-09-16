@@ -1,8 +1,5 @@
-// import '@webcomponents/custom-elements/custom-elements.min'
 
-import {HeaderComponent} from './elements/header';
+import './core';
+import './components';
+
 import './index.css';
-
-customElements.define('app-header', HeaderComponent);
-
-console.log('Test');
