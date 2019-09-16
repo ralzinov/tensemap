@@ -6,7 +6,7 @@ const currentdir = process.cwd();
 
 const devConfig: webpack.Configuration = {
     ...commonConfigFactory({
-        isProduction: true
+        isProduction: false
     }),
     devtool: 'eval-source-map',
     devServer: {
