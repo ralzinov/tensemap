@@ -1,6 +1,13 @@
 {
   "plugins": {
-    "postcss-custom-properties": true,
+    "postcss-import": true,
+    "postcss-preset-env": {
+        "stage": 0,
+        "preserve": false,
+        "features": {
+            "custom-properties": true
+        }
+    },
     "autoprefixer": {
         "grid": true
       }
