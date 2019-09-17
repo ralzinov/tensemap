@@ -1,6 +1,6 @@
-.app-wrap {
-    --content-padding: 24px;
+@import "./variables.css";
 
+.app-wrap {
     display: grid;
     grid-template-areas:
         "header header header"
