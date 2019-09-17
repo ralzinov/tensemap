@@ -7,3 +7,27 @@
     align-items: center;
     padding: 0 var(--content-padding);
 }
+
+.logo-wrap {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background: #000;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo:after {
+    content: 'T';
+    color: #fff;
+    font-family: serif;
+    font-size: 24px;
+    font-weight: 600;
+}

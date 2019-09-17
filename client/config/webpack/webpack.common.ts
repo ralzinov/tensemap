@@ -69,7 +69,7 @@ export const commonConfigFactory: IWebpackConfigFactory = ({isProduction}) => ({
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(currentdir, './src/index.html'),
-            // favicon: path.join(currentdir, './src/assets/favicon.png'),
+            favicon: path.join(currentdir, './src/assets/favicon.png'),
             inject: 'body',
             hash: true
         }),
